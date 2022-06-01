@@ -17,8 +17,6 @@ export class FormArrayExampleComponent {
     lessons: this.fb.array([])
   });
 
-  empty = '';
-
   constructor(private fb:FormBuilder) {}
 
   ngOnInit(){
